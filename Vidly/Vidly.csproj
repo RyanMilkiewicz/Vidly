@@ -255,6 +255,14 @@
     <Compile Include="Migrations\201711292156214_AddDrivingLicenseToApplicationUser.Designer.cs">
       <DependentUpon>201711292156214_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711301520095_AddPhoneToApplicationUser.cs" />
+    <Compile Include="Migrations\201711301520095_AddPhoneToApplicationUser.Designer.cs">
+      <DependentUpon>201711301520095_AddPhoneToApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711301543465_test.cs" />
+    <Compile Include="Migrations\201711301543465_test.Designer.cs">
+      <DependentUpon>201711301543465_test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -566,6 +574,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711292156214_AddDrivingLicenseToApplicationUser.resx">
       <DependentUpon>201711292156214_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711301520095_AddPhoneToApplicationUser.resx">
+      <DependentUpon>201711301520095_AddPhoneToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711301543465_test.resx">
+      <DependentUpon>201711301543465_test.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
